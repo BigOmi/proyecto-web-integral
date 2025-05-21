@@ -9,5 +9,9 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'proyecto4';
+  title = 'proyecto4'
+  constructor(){
+    console.log("nuevas funcones")
+  };
 }
+
