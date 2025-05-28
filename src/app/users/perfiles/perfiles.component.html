@@ -1,1 +1,46 @@
-<p>perfiles works!</p>,
+<div class="container">
+  <h2 class="title">Lista de Usuarios</h2>
+
+  <!-- Buscador y botón -->
+  <div class="search-bar">
+    <input type="text" placeholder="Buscar usuario..." class="search-input" />
+    <button class="add-btn">Agregar Usuario</button>
+  </div>
+
+  <!-- Tabla de usuarios -->
+  <table class="user-table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Nombre</th>
+        <th>Correo</th>
+        <th>Rol</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Juan Pérez</td>
+        <td>juan@example.com</td>
+        <td>Administrador</td>
+        <td>
+          <button class="action-btn view">Ver</button>
+          <button class="action-btn edit">Editar</button>
+          <button class="action-btn delete">Eliminar</button>
+        </td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>María López</td>
+        <td>maria@example.com</td>
+        <td>Usuario</td>
+        <td>
+          <button class="action-btn view">Ver</button>
+          <button class="action-btn edit">Editar</button>
+          <button class="action-btn delete">Eliminar</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
